@@ -59,6 +59,9 @@ body {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+align-items: baseline;
+
 }
 
 .logotype {
@@ -550,14 +553,13 @@ overflow: hidden; }
 
 .social-media {
     color: var(--WHITE, #FFF);
-
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 .social-list-link .social-list-item:hover,
@@ -575,6 +577,16 @@ height: 112px;
 background-color: #f4f4fd;
 border-radius: 4px;
 margin-bottom: 8px; }
+
+
+.footer-сontainer
+{margin-right: 120px;
+    }
+
+.social-list-second
+{display: flex;
+gap: 16px;
+    }
 
 
 
