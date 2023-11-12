@@ -557,7 +557,7 @@ overflow: hidden; }
     font-weight: 500;
     line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .social-list-link .social-list-item:hover,
@@ -575,4 +575,6 @@ height: 112px;
 background-color: #f4f4fd;
 border-radius: 4px;
 margin-bottom: 8px; }
+
+
 
