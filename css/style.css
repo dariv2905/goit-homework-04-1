@@ -37,8 +37,8 @@ button {
 }
 
 
-.new-information:hover::after,
-.new-information:focus::after
+.new-information::after,
+.new-information::after
 {content: '';
 position: absolute;
 left: 0;
