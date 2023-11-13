@@ -113,7 +113,7 @@ body {
 {fill: #f4f4fd;}
 
 
-.menu-link {
+.menu-link-second {
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: Roboto;
     font-size: 16px;
@@ -123,6 +123,18 @@ body {
     letter-spacing: 0.32px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
+}
+
+.menu-link {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    color: #404bbf;
 }
 
 .menu-link:hover,
@@ -552,10 +564,9 @@ overflow: hidden; }
     margin-bottom: 16px;
 }
 
-.social-list-link .social-list-item:hover,
-.social-list-link .social-list-item:focus
+.social-list-link:hover,
+.social-list-link:focus
 {
-    stroke: #fd9222;
     background-color: #404bbf;
 }
 
@@ -592,13 +603,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 .social-list-link-second:focus,
 .social-list-link-second:hover
-{background-color: #31d0aa;
-    }
+{background-color: #31d0aa;}
 
-.social-list-link:focus,
-.social-list-link:hover {
-    background-color: #31d0aa;
-}
+
 
 .logotype-icon-second
 {fill: #f4f4fd; }
