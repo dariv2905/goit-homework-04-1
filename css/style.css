@@ -59,8 +59,7 @@ body {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    align-items: baseline;
+    padding: 0 15px;
 }
 
 .logotype {
@@ -72,16 +71,15 @@ body {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     margin-right: 76px;
-   
 }
 
 .information-basket-item{
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-            0px 1px 1px rgba(46, 47, 66, 0.16),
-            0px 2px 1px rgba(46, 47, 66, 0.08);;
+ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+ 0px 1px 1px rgba(46, 47, 66, 0.16),
+  0px 2px 1px rgba(46, 47, 66, 0.08);;
     }
 
-    .social-list
+ .social-list
         {justify-content: center;
         gap: 24px;
         }
@@ -142,9 +140,7 @@ body {
 .page-navigation {
     display: flex;
     align-items: center;
-    width: 100%;
     justify-content: space-between;
-    max-width: 76px;
 
 }
 
@@ -194,7 +190,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 1.07;
-    /* 107.143% */
+
     letter-spacing: 1.12px;
     margin-left: 316px;
     margin-right: 316px;
@@ -267,23 +263,19 @@ body {
 
 .information-basket-link {
     color: var(--NAVY-BLUE, #2E2F42);
-    text-align: center;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    /* 120% */
     letter-spacing: 0.4px;
 }
 
 .information-basket-text {
     color: var(--SLATE, #434455);
-    text-align: center;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.32px;
 }
 
@@ -343,11 +335,9 @@ body {
 }
 
 .team-title {
-    width: 162px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 72px;
-    height: 40px;
 }
 
 .information-bascket {
@@ -396,11 +386,9 @@ overflow: hidden; }
     }
 
 .portfolio-title {
-    width: 218px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 72px;
-    height: 40px;
 }
 
 .menu-list-item {
@@ -508,14 +496,9 @@ overflow: hidden; }
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
+    justify-content: space-between;
     padding: 0 15px;
-
 }
-
-.information {
-    padding-left: 710px;
-}
-
 
 .information-link {
     width: 151px;
@@ -535,12 +518,7 @@ overflow: hidden; }
 }
 
 .information-basket-link {
-    text-align: center;
     margin-bottom: 8px
-}
-
-.information-basket-text {
-    text-align: center;
 }
 
 .portfolio-information {
@@ -578,7 +556,8 @@ border-radius: 4px;
 margin-bottom: 8px; }
 
 
-
+.footer-сontainer
+{margin-right: 120px;}
 
 .social-list-second
 {display: flex;
@@ -605,3 +584,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 .logotype-icon-second
 {fill: #f4f4fd; }
+
+
+.container-footer-update
+{display: flex;
+align-items: baseline;}
+
